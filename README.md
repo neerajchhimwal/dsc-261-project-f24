@@ -15,6 +15,8 @@ The results are present in `./results` directory.
 In order to run the web app displaying interactive results from dimension 2 to 20, follow the below steps:
 
 ![screenshot](images/Screenshot_app.png)
+
+## Installation steps
 #### Step 1: Install requirements
 `
 pip install -r requirements.txt
