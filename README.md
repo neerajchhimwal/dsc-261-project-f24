@@ -16,6 +16,12 @@ In order to run the web app displaying interactive results from dimension 2 to 2
 
 ![screenshot](images/Screenshot_app.png)
 
+## Experiment 2
+### MINE for CMI Estimation
+This is a an implementation we have tried by modifying MINE to get Conditional Mutual Information which can be used for Conditional Independence testing. There were some issues in the netwrok architecture and the data generating process but nevertheless, the results when plotted were as expected upto some extent and we need further analysis to prove the theoretical framework we have tried.
+These experiments were done in the Ipython notebook present at `CMI_CI_Testing.ipynb`.
+![screenshot](images/Screenshot_app.png)
+
 ## Installation steps
 #### Step 1: Install requirements
 `
@@ -28,5 +34,6 @@ streamlit run app.py
 ## Directory overview
 - Experiments ipython Notebook: `MINE-experiments-nb.ipynb`
 - Final MINE architecture python script: `mine_final_architecture.py`
+- Practical Implementation of MINE for CMI Estimation for CI testing: `CMI_CI_Testing.ipynb`
 - Results directory: `./results`
 - Streamlit web app for results: `app.py`
