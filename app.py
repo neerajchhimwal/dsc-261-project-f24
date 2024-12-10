@@ -21,14 +21,14 @@ with col2:
     dimension = st.slider(
         'Select Dimension',
         min_value=2,
-        max_value=20,
+        max_value=28,
         value=2,
         step=2,
         help="Adjust the dimension of the multivariate Gaussian distribution"
     )
 
 # sample dfs
-rho_values = np.linspace(-0.99, 0.99, 10)
+rho_values = np.linspace(-0.99, 0.99, 15)
 # dataframes = {}
 
 # for dim in range(2, 21):
@@ -41,7 +41,7 @@ rho_values = np.linspace(-0.99, 0.99, 10)
 #         'true_mi': true_mi
 #     })
 #     dataframes[dim] = df
-dataframes = pd.read_csv('./results/df_mine_corr_gaussians_exp.csv')
+dataframes = pd.read_csv('./results/df_mine_corr_gaussians_exp_2_to_30.csv')
 
 with col1:
     def plot_mi_curves(dim):
