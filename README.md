@@ -11,16 +11,16 @@ We have incorporated all the architecture decisions mentioned in the paper- from
 These experiments were done in the Ipython notebook present at `MINE-experiments-nb.ipynb`. This notebook contains our version of the neural network code foe the MINE [paper](https://arxiv.org/pdf/1801.04062). 
 
 The results are present in `./results` directory.
-
-In order to run the web app displaying interactive results from dimension 2 to 20, follow the below steps:
-
 ![screenshot](images/Screenshot_app.png)
 
 ## Experiment 2
 ### MINE for CMI Estimation
 This is a an implementation we have tried by modifying MINE to get Conditional Mutual Information which can be used for Conditional Independence testing. There were some issues in the netwrok architecture and the data generating process but nevertheless, the results when plotted were as expected upto some extent and we need further analysis to prove the theoretical framework we have tried.
 These experiments were done in the Ipython notebook present at `CMI_CI_Testing.ipynb`.
-![screenshot](images/Screenshot_app.png)
+![screenshot](images/web_app_ss_2.png)
+
+
+In order to run the web app displaying interactive results from dimension 2 to 20, follow the below mnetioned steps.
 
 ## Installation steps
 #### Step 1: Install requirements
