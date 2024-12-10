@@ -11,7 +11,7 @@ We have incorporated all the architecture decisions mentioned in the paper- from
 These experiments were done in the Ipython notebook present at `MINE-experiments-nb.ipynb`. This notebook contains our version of the neural network code foe the MINE [paper](https://arxiv.org/pdf/1801.04062). 
 
 The results are present in `./results` directory.
-![screenshot](images/Screenshot_app.png)
+![screenshot](images/web_app_ss_1.png)
 
 ## Experiment 2
 ### MINE for CMI Estimation
