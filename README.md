@@ -25,6 +25,12 @@ In order to run the web app displaying interactive results from dimension 2 to 2
 ## Installation steps
 #### Step 1: Install requirements
 `
+conda create --name grp_2_env python=3.11.0 
+`<br>
+`
+conda activate grp_2_env
+`<br>
+`
 pip install -r requirements.txt
 `
 #### Step 2: Run the web app locally
