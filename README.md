@@ -25,4 +25,8 @@ pip install -r requirements.txt
 `
 streamlit run app.py
 `
-
+## Directory overview
+- Experiments ipython Notebook: `MINE-experiments-nb.ipynb`
+- Final MINE architecture python script: `mine_final_architecture.py`
+- Results directory: `./results`
+- Streamlit web app for results: `app.py`
